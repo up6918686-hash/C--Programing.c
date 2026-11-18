@@ -4,6 +4,7 @@
 int main()
 {
     int age;
+    clrscr();
 
     printf("Enter your age: ");
     scanf("%d", &age);
@@ -16,7 +17,7 @@ int main()
     {
         printf("You are not eligible for voting.");
     }
-
+    getch();
     return 0;
- getch();
+
 }
